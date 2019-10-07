@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './svg/chat.svg';
 import './App.css';
+import { Navbar } from './main/Navbar';
 
 const App: React.FC = () => {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="chat" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
