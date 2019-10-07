@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './svg/chat.svg';
 import './App.css';
 import { Navbar } from './main/Navbar';
+import { Footer } from './main/Footer';
 
 const App: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <Footer />
     </div>
   );
 }
