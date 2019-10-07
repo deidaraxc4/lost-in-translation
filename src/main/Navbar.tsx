@@ -5,7 +5,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 export const Navbar: React.FC = () => {
 
     return(
-        <AppBar position="static">
+        <AppBar position="static" color="primary">
             <Toolbar>
                 <IconButton edge="start" color="inherit" aria-label="menu">
                     <MenuIcon />
