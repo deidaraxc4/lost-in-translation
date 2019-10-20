@@ -4,6 +4,14 @@
 
 .Header {
       background-color: #282c34;
+      padding: 10px 50px 50px 10px;
+}
+
+.search {
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
 }
 
 .title-text {
