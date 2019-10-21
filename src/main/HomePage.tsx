@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Container, Typography, TextField } from '@material-ui/core';
+import { Container, Typography, TextField, Button } from '@material-ui/core';
 import logo from '../svg/chat.svg';
 import './HomePage.css';
 
@@ -24,9 +24,11 @@ export const HomePage: React.FC = () => {
                     type="search"
                     placeholder="translate..."
                     fullWidth
-                >
-
-                </TextField>
+                />
+                <br />
+                <Button size="large" color="secondary" variant="contained" >
+                    Translate
+                </Button>
             </div>
         </div>
     );
